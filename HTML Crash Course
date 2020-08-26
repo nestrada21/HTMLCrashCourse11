@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>HTML Cheat Sheet</title>
+  <head>
+  <body>
+      <!--Headings -->
+      <h1>Heading One</h1>
+      <h1>Heading Two</h2>
+      <h1>Heading Three</h3>
+      <h1>Heading Four</h4>
+      <h1>Heading Five</h5>
+      <h1>Heading Six</h6>
+
+      <!--Paragrpah -->
+      <p>
+          lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do euismod
+          tempor <strong>incididunt ut labore</strong> el dolore
+          magna aliqua. Ut enim ad minim veniam,
+          quis nostrud <em> exercitation ullamco</em> lobories
+          nisi ut aliquip ex e commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore en fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt, in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+          lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, <a href="http://google.com" target="_blank">sed do euismod
+          </a>
+          tempor incididunt ut labore el dolore
+          magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco lobories
+          nisi ut aliquip ex e commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore en fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt, in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+      <!-- Lists -->
+      <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+      </ul>
+
+      <ol>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+      </ol>
+      
+      <!---Table -->
+      <table>
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Age</th>
+              </tr>
+          </thead
+          <tbody>
+              <tr>
+                  <td>Naydelin Estrada</td>
+                  <td>naydelin@something.com</td>
+                  <td>16</td>
+              </tr>
+               <tr>
+                  <td>Betzaida Estrada</td>
+                  <td>Betzaida@something.com</td>
+                  <td>5</td>
+               </tr>
+               <tr>
+                  <td>Sara Willimas</td>
+                  <td>sara@something.com</td>
+                  <td>25</td>
+               </tr>
+            </tbody>
+      </table>
+
+      <br>
+      <hr>
+      <br>
+
+      <!-- Forms -->
+      <form action"process.php" method="POST">
+          <div>
+              <label>First Name</label>
+              <input type"text" name="firstName" placeholder="Enter first name">
+          </div>
+          <br>
+          <div>
+              <label>Last Name</label>
+              <input type"text" name="lastName">
+          </div>
+          <br>
+          <div>
+              <label>Email</label>
+              <input type"email" name="email">
+          </div>
+          <br>
+          <div>
+              <label>Message</label>
+              <textarea name="message"></textarea>
+          </div>
+          <br>
+          <div>
+              <label>Gender</label>
+              <select name="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  option>
+                  <option value="other">Other</option>
+              </select
+          </div>
+          <br>
+              <div>
+                  <label>Age:</label>
+                  <input type="number" name="age" value="30">
+              </div>
+              <br>
+              <div>
+                  <label>Birthday:</label>
+                  <input type="date" name="birthday">
+              </div>
+              <br>
+              <input type="submit" name="submit" value="submit">
+      </form>
+
+      <!-- Button -->
+      <button>Click me</button>
+
+      <br>
+
+      <!--Image -->
+      <a href="images/sample.jpg">
+          <img src="images/sample.jpg" alt="My Sample Image" width=""200">
+      </a>
+
+      <!-- Quotations -->
+      <blockquote cite="http://traversymedia.com">
+          lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do euismod
+          tempor incididunt ut labore el dolore
+          magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco lobories
+          nisi ut aliquip ex e commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore en fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt, in culpa qui officia deserunt mollit anim id est laborum.
+        </blockquote>
+  
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
+</p>
+
+      <div style="margin-top:500px"></div>
+
+    </body>
+</html>
